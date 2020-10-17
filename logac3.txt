@@ -1,0 +1,32 @@
+2020-10-17T00:20:19.355164+00:00 heroku[web.1]: Unidling
+2020-10-17T00:20:19.368438+00:00 heroku[web.1]: State changed from down to starting
+2020-10-17T00:20:22.631169+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-17T00:20:25.606728+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-17T00:20:25.606785+00:00 app[web.1]: * Environment: production
+2020-10-17T00:20:25.606845+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-17T00:20:25.606881+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-17T00:20:25.606913+00:00 app[web.1]: * Debug mode: off
+2020-10-17T00:20:25.635806+00:00 app[web.1]: * Running on http://0.0.0.0:32656/ (Press CTRL+C to quit)
+2020-10-17T00:20:25.926321+00:00 heroku[web.1]: State changed from starting to up
+2020-10-17T00:20:26.426563+00:00 app[web.1]: 10.63.23.236 - - [17/Oct/2020 00:20:26] "GET / HTTP/1.1" 200 -
+2020-10-17T00:20:26.429631+00:00 heroku[router]: at=info method=GET path="/" host=ac3-devops-tabata-tentativa2.herokuapp.com request_id=b64d39b7-906f-414d-94ca-9205a7b13ea6 fwd="200.49.54.234" dyno=web.1 connect=0ms service=18ms status=200 bytes=541 protocol=https
+2020-10-17T00:20:27.752866+00:00 app[web.1]: 10.63.23.236 - - [17/Oct/2020 00:20:27] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-17T00:20:27.754116+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3-devops-tabata-tentativa2.herokuapp.com request_id=8c20d8cf-ae9e-4572-acb1-1b95db59ea66 fwd="200.49.54.234" dyno=web.1 connect=5ms service=40ms status=404 bytes=379 protocol=https
+2020-10-17T00:55:20.273927+00:00 heroku[web.1]: Idling
+2020-10-17T00:55:20.276369+00:00 heroku[web.1]: State changed from up to down
+2020-10-17T00:55:21.195666+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-17T00:55:21.306116+00:00 heroku[web.1]: Process exited with status 143
+2020-10-17T02:22:47.025250+00:00 heroku[web.1]: Unidling
+2020-10-17T02:22:47.027623+00:00 heroku[web.1]: State changed from down to starting
+2020-10-17T02:22:50.769203+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-17T02:22:53.492772+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-17T02:22:53.492894+00:00 app[web.1]: * Environment: production
+2020-10-17T02:22:53.492962+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-17T02:22:53.493058+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-17T02:22:53.493098+00:00 app[web.1]: * Debug mode: off
+2020-10-17T02:22:53.517790+00:00 app[web.1]: * Running on http://0.0.0.0:34271/ (Press CTRL+C to quit)
+2020-10-17T02:22:53.731288+00:00 heroku[web.1]: State changed from starting to up
+2020-10-17T02:22:54.099504+00:00 app[web.1]: 10.13.235.87 - - [17/Oct/2020 02:22:54] "GET / HTTP/1.1" 200 -
+2020-10-17T02:22:54.100574+00:00 heroku[router]: at=info method=GET path="/" host=ac3-devops-tabata-tentativa2.herokuapp.com request_id=bfc52484-3e2e-4db2-9579-4ac830c594e9 fwd="177.140.107.23" dyno=web.1 connect=1ms service=28ms status=200 bytes=541 protocol=https
+2020-10-17T02:22:54.417445+00:00 app[web.1]: 10.13.235.87 - - [17/Oct/2020 02:22:54] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-17T02:22:54.418649+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3-devops-tabata-tentativa2.herokuapp.com request_id=fad37646-fda4-4b87-831c-6aef753570b4 fwd="177.140.107.23" dyno=web.1 connect=1ms service=26ms status=404 bytes=379 protocol=https
